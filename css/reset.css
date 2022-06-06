@@ -41,7 +41,7 @@ a {
 
 button {
 	padding: 0;
-	background-color: unset;
+	background-color: inherit;
 	border: none;
 	color: inherit;
 	cursor: pointer;
