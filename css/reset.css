@@ -36,6 +36,7 @@ select {
 a {
 	text-decoration: none;
 	color: inherit;
+	cursor: pointer;
 }
 
 button {
@@ -43,4 +44,5 @@ button {
 	background-color: unset;
 	border: none;
 	color: inherit;
+	cursor: pointer;
 }

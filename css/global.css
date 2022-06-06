@@ -1,0 +1,17 @@
+:root {
+  --black-50: #0a0a0a;
+}
+
+body {
+  background-color: var(--black-50);
+
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
+  color: #ffffff;
+}
+
+footer {
+  height: 50px;
+
+  text-align: center;
+  line-height: 50px;
+}

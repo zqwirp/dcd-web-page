@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  max-width: 1080px;
+  /* height: calc(100vh - 50px); */
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0 20px;
+  padding-top: 50px;
+}
+
+.header .title {
+  position: relative;
+}
+
+.header .title h1 {
+  font-size: 40px;
+}
+
+.header .name {
+  position: absolute;
+  top: -5vh;
+  letter-spacing: 4px;
+}
+
+.header .desc {
+  position: absolute;
+  bottom: -6vh;
+  letter-spacing: 2px;
+}
+
+.about {
+  height: 100vh;
+}
+
+@media screen and (min-width: 800px) {
+  .header {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .header .title h1 {
+    font-size: 60px;
+  }
+  .header .desc,
+  .header .name {
+    font-size: 20px;
+  }
+}

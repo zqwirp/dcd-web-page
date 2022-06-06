@@ -4,47 +4,67 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" href="nunito/stylesheet.css" />
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fonts/nunito/stylesheet.css" />
+
+    <link rel="stylesheet" href="css/reset.css" />
+
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/header.css" />
 
     <title>zqwirp</title>
   </head>
+
   <body>
-    <div class="navbar-position">
-      <div class="navbar-container">
-        <div class="navbar">
-          <a href="/#">zqwirp</a>
+    <div class="navbar">
+      <a href="#" class="logo">zqwirp</a>
 
-          <nav>
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Project</a>
-            <a href="">Contact</a>
-          </nav>
+      <nav class="links" id="navbar-links">
+        <a href="#">link001</a>
+        <a href="#">link002</a>
+        <a href="#">link003</a>
+        <a href="#">link004</a>
+      </nav>
 
-          <button>menu</button>
+      <button class="toggle" id="toggle-menu-button">menu</button>
+    </div>
+
+    <header>
+      <div class="header">
+        <div class="title">
+          <div class="name">Wiji Aji Permana</div>
+          <h1>Self-taught, Front-end Developer</h1>
+          <div class="desc">I build websites with responsive design</div>
         </div>
       </div>
-    </div>
+    </header>
 
-    <div class="page-container">
-      <header>
-        <div class="header-container">
-          <div class="header">
-            <div class="name">Wiji Aji Permana</div>
-            <h1>Self-taught, Front-end Developer</h1>
-            <div class="desc">Build websites with responsive design</div>
-          </div>
+    <main>
+      <div class="content">
+        <div id="about" class="about">
+          <article>
+            <h2>About</h2>
+            <p>
+              Lorem suscipit repudiandae provident officia odit. Facere id nemo
+              tempora nisi doloribus Totam aliquam odio culpa quis quae? Ad
+              necessitatibus.
+            </p>
+          </article>
+
+          <aside>
+            <h3>Personal Data</h3>
+
+            <p>
+              Consectetur consectetur vero saepe officia fugiat Temporibus
+              perspiciatis nostrum repellendus.
+            </p>
+          </aside>
         </div>
-      </header>
+      </div>
+    </main>
 
-      <main>
-        <article>Article</article>
-        <aside>Aside</aside>
-      </main>
+    <footer>&copy; 2022 zqwirp</footer>
 
-      <footer>Footer</footer>
-    </div>
+    <script src="script.js"></script>
   </body>
 </html>
