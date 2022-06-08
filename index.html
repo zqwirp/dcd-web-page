@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/global.css" />
     <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/main.css" />
 
     <title>zqwirp</title>
   </head>
@@ -19,53 +20,80 @@
     <div class="navbar__container">
       <div class="navbar__navbar">
         <a href="#" class="navbar__logo">zqwirp</a>
-        
+
         <nav class="navbar__links" id="navbar-links">
-          <a href="#">link001</a>
-          <a href="#">link002</a>
-          <a href="#">link003</a>
-          <a href="#">link004</a>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#">Showcase</a>
+          <a href="#">Contact</a>
         </nav>
-        
+
         <button class="navbar__toggle" id="toggle-menu-button">menu</button>
       </div>
     </div>
 
-    <header>
-      <div class="header">
-        <div class="title">
-          <div class="name">Wiji Aji Permana</div>
-          <h1>Self-taught, Front-end Developer</h1>
-          <div class="desc">I build websites with responsive design</div>
+    <div class="page">
+      <header class="header" id="home">
+        <div class="header__titles">
+          <div class="header__sub-title-name">Wiji Aji Permana</div>
+          <h1 class="header__title">Self-taught, Front-end Developer</h1>
+          <div class="header__sub-title-desc">
+            I build websites with responsive design
+          </div>
         </div>
-      </div>
-    </header>
+      </header>
 
-    <main>
-      <div class="content">
-        <div id="about" class="about">
-          <article>
-            <h2>About</h2>
-            <p>
-              Lorem suscipit repudiandae provident officia odit. Facere id nemo
-              tempora nisi doloribus Totam aliquam odio culpa quis quae? Ad
-              necessitatibus.
-            </p>
-          </article>
+      <main class="main">
+        <div class="section" id="about">
+          <h2 class="section__title">About</h2>
 
-          <aside>
-            <h3>Personal Data</h3>
+          <div class="about">
+            <article>
+              <p>
+                I'm a self-taught front-end web developer. I'm passionate about
+                programming. I have a good understanding of
+                <span class="text--accent">HTML</span>,
+                <span class="text--accent">CSS</span> and
+                <span class="text--accent">JavaScript</span>. I improve my skill
+                by learning the fundamentals of programming language, make sure
+                the foundation is pretty solid. I am quite familiar with using
+                <span class="text--accent">Figma</span> to create mock up
+                designs. I have a good understanding of how to work with
+                <span class="text--accent">Git</span>. I'm experienced to work
+                with team. I'm using <span class="text--accent">Vim</span> as my
+                text editor.
+              </p>
+            </article>
 
-            <p>
-              Consectetur consectetur vero saepe officia fugiat Temporibus
-              perspiciatis nostrum repellendus.
-            </p>
-          </aside>
+            <aside>
+              <div class="card">
+                <h3 class="card__title">Personal Data</h3>
+
+                <p>
+                  My name is Wiji Aji Permana.
+                  <br /><br />
+                  I was born in Rangkasbitung on August 28, 1996.
+                </p>
+              </div>
+            </aside>
+          </div>
         </div>
-      </div>
-    </main>
 
-    <footer>&copy; 2022 zqwirp</footer>
+        <div class="section">
+          <h2 class="section__title">Showcase</h2>
+
+          <div class="showcase">showcase</div>
+        </div>
+
+        <div class="section">
+          <h2 class="section__title">Contact</h2>
+
+          <div class="showcase">input</div>
+        </div>
+      </main>
+
+      <footer>&copy; 2022 zqwirp</footer>
+    </div>
 
     <script src="script.js"></script>
   </body>

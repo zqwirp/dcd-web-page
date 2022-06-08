@@ -11,3 +11,11 @@ footer {
   text-align: center;
   line-height: 50px;
 }
+
+.page {
+  max-width: 1080px;
+  padding-top: 50px;
+  margin: 0 auto;
+
+  box-shadow: 0 0 10px 0 #0f0f0f;
+}
