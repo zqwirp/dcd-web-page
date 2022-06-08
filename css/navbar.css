@@ -15,7 +15,10 @@
   padding: 0 20px;
   margin: 0 auto;
 
-  background-color: #0a0a0a;
+  background-color: #0c0c0c;
+
+  box-shadow: 0 4px 4px -2px #1c1c1c;
+  transition: box-shadow 0.5s;
 }
 
 .navbar__logo {
@@ -60,6 +63,10 @@
 @media screen and (min-width: 800px) {
   .navbar__navbar {
     padding: 0 40px;
+    border-radius: 0 0 8px 6px;
+  }
+  .navbar__navbar:hover {
+    box-shadow: 0 3px 4px 1px #1f1f1f;
   }
   .navbar__links {
     position: unset;

@@ -1,9 +1,5 @@
-:root {
-  --black-50: #0a0a0a;
-}
-
 body {
-  background-color: var(--black-50);
+  background-color: #0a0a0a;
 
   font-family: "Nunito", Helvetica, Arial, sans-serif;
   color: #ffffff;
